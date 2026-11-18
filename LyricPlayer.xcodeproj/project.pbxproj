@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+        AB0000000000000000000001 = {isa = PBXContainerItemProxy; containerPortal = 090000000000000000000001; proxyType = 1; remoteGlobalIDString = 050000000000000000000001; remoteInfo = LyricPlayer; };
+/* End PBXContainerItemProxy section */
+/* Begin PBXTargetDependency section */
+        AB0000000000000000000002 = {isa = PBXTargetDependency; target = 050000000000000000000001; targetProxy = AB0000000000000000000001; };
+/* End PBXTargetDependency section */
+/* Begin PBXBuildFile section */
+		010000000000000000000001 /* LyricPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000001 /* LyricPlayerApp.swift */; };
+		01000000000000000000000E /* TranscriptDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000010 /* TranscriptDomain.swift */; };
+		01000000000000000000000F /* MusicFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000011 /* MusicFollower.swift */; };
+		010000000000000000000011 /* TranscriptDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000012 /* TranscriptDomainTests.swift */; };
+		BB0000000000000000000000 = {isa = PBXBuildFile; fileRef = AA0000000000000000000000; };
+		BB0000000000000000000001 = {isa = PBXBuildFile; fileRef = AA0000000000000000000001; };
+		BB0000000000000000000002 = {isa = PBXBuildFile; fileRef = AA0000000000000000000002; };
+		BB0000000000000000000003 = {isa = PBXBuildFile; fileRef = AA0000000000000000000003; };
+CC0000000000000000000001 = {isa = PBXBuildFile; fileRef = AA0000000000000000000003; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+EE0000000000000000000000 = {isa = PBXBuildFile; fileRef = DD0000000000000000000000; };
+EE0000000000000000000001 = {isa = PBXBuildFile; fileRef = DD0000000000000000000001; };
+FA0000000000000000000002 = {isa = PBXBuildFile; fileRef = FA0000000000000000000001; };
+FA0000000000000000000004 = {isa = PBXBuildFile; fileRef = FA0000000000000000000003; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+CC0000000000000000000002 = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 10; files = (CC0000000000000000000001,); name = "Embed Frameworks"; runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXFileReference section */
+		020000000000000000000001 /* LyricPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricPlayerApp.swift; sourceTree = "<group>"; };
+		02000000000000000000000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02000000000000000000000F /* LyricPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyricPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020000000000000000000010 /* TranscriptDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptDomain.swift; sourceTree = "<group>"; };
+		020000000000000000000011 /* MusicFollower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicFollower.swift; sourceTree = "<group>"; };
+		020000000000000000000012 /* TranscriptDomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptDomainTests.swift; sourceTree = "<group>"; };
+		020000000000000000000013 /* LyricPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyricPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000000 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recording.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000001 /* RecordingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordingsView.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000002 /* ggml-base.bin */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vendor/ggml-base.bin"; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* whisper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "Vendor/whisper.xcframework"; sourceTree = "<group>"; };
+DD0000000000000000000000 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingImportTests.swift; sourceTree = "<group>"; };
+DD0000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = folder; path = TestAudio; sourceTree = "<group>"; };
+FA0000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = text; path = ThirdPartyNotices.txt; sourceTree = "<group>"; };
+FA0000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+                BB0000000000000000000003,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				040000000000000000000002 /* LyricPlayer */,
+				040000000000000000000005 /* LyricPlayerTests */,
+				AA0000000000000000000002,
+AA0000000000000000000003,
+FA0000000000000000000001,
+                040000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040000000000000000000002 /* LyricPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000000,
+AA0000000000000000000001,
+020000000000000000000001 /* LyricPlayerApp.swift */,
+				020000000000000000000010 /* TranscriptDomain.swift */,
+				020000000000000000000011 /* MusicFollower.swift */,
+				FA0000000000000000000003,
+                02000000000000000000000E /* Info.plist */,
+			);
+			path = LyricPlayer;
+			sourceTree = "<group>";
+		};
+
+		040000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02000000000000000000000F /* LyricPlayer.app */,
+				020000000000000000000013 /* LyricPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040000000000000000000005 /* LyricPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD0000000000000000000000,
+                DD0000000000000000000001,
+                020000000000000000000012 /* TranscriptDomainTests.swift */,
+			);
+			path = LyricPlayerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		050000000000000000000001 /* LyricPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060000000000000000000001 /* Build configuration list for PBXNativeTarget "LyricPlayer" */;
+			buildPhases = (
+				070000000000000000000001 /* Sources */,
+				030000000000000000000001 /* Frameworks */,
+				CC0000000000000000000002,
+080000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyricPlayer;
+			productName = LyricPlayer;
+			productReference = 02000000000000000000000F /* LyricPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		050000000000000000000002 /* LyricPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060000000000000000000003 /* Build configuration list for PBXNativeTarget "LyricPlayerTests" */;
+			buildPhases = (
+				070000000000000000000002 /* Sources */,
+                FF0000000000000000000001,
+				030000000000000000000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+                AB0000000000000000000002,
+			);
+			name = LyricPlayerTests;
+			productName = LyricPlayerTests;
+			productReference = 020000000000000000000013 /* LyricPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					050000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					050000000000000000000002 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = 060000000000000000000002 /* Build configuration list for PBXProject "LyricPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040000000000000000000001;
+			productRefGroup = 040000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				050000000000000000000001 /* LyricPlayer */,
+				050000000000000000000002 /* LyricPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+                BB0000000000000000000002,
+                FA0000000000000000000002,
+                FA0000000000000000000004,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+FF0000000000000000000001 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (EE0000000000000000000001,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+                BB0000000000000000000001,
+                BB0000000000000000000000,
+				010000000000000000000001 /* LyricPlayerApp.swift in Sources */,
+				01000000000000000000000E /* TranscriptDomain.swift in Sources */,
+				01000000000000000000000F /* MusicFollower.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0000000000000000000000,
+                010000000000000000000011 /* TranscriptDomainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0A0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                INFOPLIST_FILE = LyricPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.LyricPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0A0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                INFOPLIST_FILE = LyricPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.LyricPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0A0000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyricPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LyricPlayer";
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                FRAMEWORK_SEARCH_PATHS = ("$(inherited)", "$(BUILT_PRODUCTS_DIR)/LyricPlayer.app/Frameworks");
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.LyricPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0A0000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyricPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LyricPlayer";
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                FRAMEWORK_SEARCH_PATHS = ("$(inherited)", "$(BUILT_PRODUCTS_DIR)/LyricPlayer.app/Frameworks");
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahul.LyricPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060000000000000000000001 /* Build configuration list for PBXNativeTarget "LyricPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0000000000000000000003 /* Debug */,
+				0A0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060000000000000000000002 /* Build configuration list for PBXProject "LyricPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0000000000000000000001 /* Debug */,
+				0A0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060000000000000000000003 /* Build configuration list for PBXNativeTarget "LyricPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0000000000000000000005 /* Debug */,
+				0A0000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090000000000000000000001 /* Project object */;
+}
